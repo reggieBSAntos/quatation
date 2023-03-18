@@ -1,17 +1,17 @@
-import calendarShow from "calendar.js";
-import confirm from "confirm.js";
-import form from "form.js";
-import holidayList from "holidays.js";
-import notification from "notification.js";
+import calendarShow from "./calendar.js";
+import confirm from "./confirm.js";
+import form from "./form.js";
+import holidayList from "./holidays.js";
+import notification from "./notification.js";
 import {
   init as slider,
   nextSlide,
   prevSlide,
   linkClicked,
 } from "slider";
-import { show as spinnerShow, remove as spinnerRemove } from "spinner.js";
-import swipe from "swipe.js";
-import toast from "toast.js";
+import { show as spinnerShow, remove as spinnerRemove } from "./spinner.js";
+import swipe from "./swipe.js";
+import toast from "./toast.js";
 
 let questions,
   services,
