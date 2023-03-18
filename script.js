@@ -8,7 +8,7 @@ import {
   nextSlide,
   prevSlide,
   linkClicked,
-} from "slider";
+} from "./slider.js";
 import { show as spinnerShow, remove as spinnerRemove } from "./spinner.js";
 import swipe from "./swipe.js";
 import toast from "./toast.js";
